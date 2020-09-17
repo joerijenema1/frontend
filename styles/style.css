@@ -25,12 +25,6 @@ header {
 
 }
 
-==main{
-    position: fixed;
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
 
 .fist {
     width: auto;
@@ -57,17 +51,36 @@ header {
 }
 
 .video {
-    width: 260%;
-    height: auto;
-    z-index: -1;
+    width: 150%;
+    height: 155em;
+    z-index: -5;
     margin: -23%;
+    object-fit: cover;
+
 }
 
-.lollogo2{
-    width: auto;
-    height: 40em;
+.lollogo2 {
+    width: 65em;
+    height: 33em;
     position: absolute;
     float: none;
-    margin: 100% 7% 7%;
-    
+    margin: 90% 10% 0%;
+
+}
+
+.buttonstyling {
+    width: 10em;
+    height: 3em;
+    position: absolute;
+    float: none;
+    margin: 150% 22% 0%;
+    font-size: 5em;
+    background-color: #13d8f6;
+    color: #551b8b;
+    text-transform: uppercase;
+}
+
+h5 {
+    margin-top: 25%;
+    font-size: 50px;
 }
