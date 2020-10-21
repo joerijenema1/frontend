@@ -12,133 +12,233 @@ body {
     background-color: rgb(214, 214, 214);
 }
 
-header {
-    height: 20em;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5em;
-    position: fixed;
-    z-index: 10;
+@media screen and (max-width: 8000px) {
+    body {
+        background-color: lightgray;
+    }
 
-}
+    header {
+        height: 30vw;
+        width: 147vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5vw;
+        position: fixed;
+        z-index: 10;
+
+    }
 
 
-.fist {
-    width: auto;
-    height: 10em;
-}
+    .fist {
+        width: auto;
+        height: 20vw;
+    }
 
-.lollogo {
-    width: auto;
-    height: 15em;
-    padding-left: em;
-}
+    .lollogo {
+        width: auto;
+        height: 30vw;
+    }
 
-.worldicon {
-    width: auto;
-    float: right;
-    max-height: 7em;
-}
+    .worldicon {
+        width: auto;
+        float: right;
+        max-height: 15vw;
+    }
 
-.hamburgericon {
-    width: auto;
-    height: 7em;
-    float: right;
+    .hamburgericon {
+        width: auto;
+        height: 15vw;
+        float: right;
 
-}
+    }
 
-.video {
-    width: 150%;
-    height: 155em;
-    z-index: -5;
-    margin: -23%;
-    object-fit: cover;
+    .video {
+        width: 147vw;
+        height: 270vw;
+        z-index: -5;
+        margin: -23% 0% 0% 0%;
+        object-fit: cover;
 
-}
+    }
 
-.lollogo2 {
-    width: 65em;
-    height: 33em;
-    position: absolute;
-    float: none;
-    margin: 90% 10% 0%;
+    .lollogo2 {
+        width: 100vw;
+        height: 60vw;
+        position: absolute;
+        float: none;
+        margin: 90vw 24vw 0vw 24vw;
 
-}
+    }
 
-.buttonstyling {
-    width: 10em;
-    height: 3em;
-    position: absolute;
-    float: none;
-    margin: 150% 22% 0%;
-    font-size: 5em;
-    background-color: #13d8f6;
-    color: #551b8b;
-    text-transform: uppercase;
-}
-.wrapper{
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: flex;
-    flex-wrap: nowrap;
-    transition-property: transform;
-    box-sizing: content-box;
-    justify-content:flex-start;
-}
-h5 {
-    margin-top: 25%;
-    font-size: 50px;
-}
+    .buttonstyling {
+        width: 98vw;
+        height: 30vw;
+        position: absolute;
+        float: none;
+        margin: 150vw 25vw 0vw 25vw;
+        font-size: 5em;
+        background-color: #13d8f6;
+        color: #551b8b;
+        text-transform: uppercase;
+    }
 
-p {
-    margin-top: 30%;
-    margin-bottom: 8%;
-    margin-left: 5%;
-    font-size: 50px;
-    text-transform: uppercase;
-    font-size: 2.1em;
-    font-weight: 600;
-    letter-spacing: 0.05em
-}
+    .sectionwidth {
+        background: url(ruitjessssss.png);
+        width: 90em;
+        height: 50em;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        opacity: 
+    }
 
-.canvas1 {
-    width: 70em; 
-    height: 50em; 
-    background-color: white;
-    left: -2px;
-    top: -2px; 
-    border-top-right-radius: 100px;
-    margin-left:5%;
-    display: block;
-}
-.tftnotes{
-     width: 400px; 
-    height: 400px; 
-    left: -2px;
-    top: -2px;
-    margin-top: 0%;
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 4em;
+    }
 
-}
-/*.canvas2 {
-    width: 665px; 
-    height: 298px; 
-    background-color: red;
-    left: -2px;
-    top: -2px; 
-    border-top-right-radius: 100px;
-    margin-left: 200px;
-    display: block;
-}
-.canvas3 {
-    width: 765px; 
-    height: 298px; 
-    background-color: white;
-    left: -2px;
-    top: -2px; 
-    border-top-right-radius: 100px;
-    margin-left: 200px;
+    h5 {
+        margin-top: 25%;
+        font-size: 50px;
+    }
+
+
+    p {
+        padding: 3% 3% 3% 3%;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-size: 2.1em;
+        font-weight: 600;
+        letter-spacing: 0.05em
+    }
+
+
+    .canvas1 {
+        width: 70em;
+        height: 0em;
+        background-color: white;
+        left: -2px;
+        top: -2px;
+        border-top-right-radius: 100px;
+        margin-left: 5%;
+        display: block;
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    */ .canvas1 {
+        float: left;
+        width: 33.33%;
+        padding-left: 11.11%;
+
+
+    }
+
+    .tftnotes {
+        width: 400px;
+        height: 400px;
+        left: -2px;
+        top: -2px;
+        margin-top: 0%;
+        content: "";
+        display: table;
+        clear: both;
+
+    }
+
+
+
+    .canvas2 {
+        float: left;
+        width: 33.33%;
+        padding-left: 10%;
+
+    }
+
+    .canvas3 {
+        float: left;
+        width: 33.33%;
+        padding-left: 40%;
+
+    }
+
+
+
+
+    /*CHOOSE YOUR CHAMPION */
+    .sectionwidth1 {
+        background-color: white;
+        width: 90em;
+    }
+
+    h2 {
+        margin: 0vw 0vw 8vw 0vw;
+        font-size: 50px;
+        text-transform: uppercase;
+        font-size: 75px;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+      
+    }
+
+    h3 {
+        margin: 2vw 10vw 5vw 10vw;
+        font-size: 50px;
+        font-weight: 200;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+
+    .buttondiscover {
+        width: 20em;
+        height: 1.5em;
+        position: absolute;
+        float: none;
+        margin: 0% 24.5% 0%;
+        font-size: 3em;
+        background-color: #d6a84e;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .buttonplaynow {
+        width: 20em;
+        height: 1.5em;
+        position: absolute;
+        float: none;
+        margin: 10% 24.5% 0%;
+        font-size: 3em;
+        background-color: #00cae7;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .yasuo {
+        width: 80em;
+        height: 80em;
+        top: -2px;
+        margin: 10vw 5vw 10vw;
+        content: "";
+        display: table;
+        clear: both;
+
+    }
+     /*LoadOut*/
+    
+    .sectionwidth2 {
+        background-color: black;
+        width: 147vw;
+        height: 340vw;
+        
+    }
+    .minimap {
+        padding: 50vw 0vw 10vw 0vw
+    }
+    
 }
