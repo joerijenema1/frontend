@@ -3,23 +3,27 @@
 *::after,
 *::before {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
 }
 
 body {
     margin: 0;
     background-color: rgb(214, 214, 214);
+    font-family: 'roboto', sans-serif;
 }
 
-@media screen and (max-width: 8000px) {
-    body {
-        background-color: lightgray;
-    }
+body {
+    background-color: lightgray;
+}
+
+/*media mobiel*/
+
+@media only screen and (max-width: 600px) {
+
+    /*vanaf hier begint de header voor mobiele site.************************************/
 
     header {
-        height: 30vw;
-        width: 147vw;
+        height: 20vw;
+        width: 100vw;
         background-color: white;
         display: flex;
         justify-content: space-between;
@@ -30,215 +34,835 @@ body {
 
     }
 
-
     .fist {
         width: auto;
-        height: 20vw;
+        height: 10vw;
     }
 
     .lollogo {
         width: auto;
-        height: 30vw;
+        height: 15vw;
     }
 
     .worldicon {
         width: auto;
         float: right;
-        max-height: 15vw;
+        max-height: 10vw;
     }
 
     .hamburgericon {
         width: auto;
-        height: 15vw;
+        height: 10vw;
         float: right;
 
     }
 
-    .video {
-        width: 147vw;
-        height: 270vw;
-        z-index: -5;
-        margin: -23% 0% 0% 0%;
-        object-fit: cover;
+}
 
+@media only screen and (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .opmaaknavmenu {
+        position: absolute;
+        right: 0px;
+        height: 55vw;
+        background-color: white;
+        margin: 10vw 0vw 1vw 1vw;
+        padding: 0vw 8vw 0vw 10vw;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        text-decoration: none;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+
+
+    }
+
+    .opmaaknavmenu a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    nav ul li {
+        margin: 0vw 0vw 4vw 0vw;
+    }
+}
+
+.opmaaknavmenu li {
+    opacity: 100;
+}
+
+.nav-active {
+    transform: translateX(0%)
+}
+
+
+
+
+/*begint inhoud mobiele site, terug linken naar html dan weet je waar de classes voor staan.*/
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .video {
+        width: 100vw;
+        height: 160vw;
+        z-index: -5;
+        object-fit: cover;
     }
 
     .lollogo2 {
-        width: 100vw;
-        height: 60vw;
+        width: 70vw;
+        height: 40vw;
         position: absolute;
         float: none;
-        margin: 90vw 24vw 0vw 24vw;
-
+        margin: 60vw 15vw 0vw 15vw;
     }
 
     .buttonstyling {
-        width: 98vw;
-        height: 30vw;
+        width: 45vw;
+        height: 15vw;
         position: absolute;
         float: none;
-        margin: 150vw 25vw 0vw 25vw;
-        font-size: 5em;
+        margin: 100vw 27.5vw 0vw 27.5vw;
+        font-size: 4vw;
         background-color: #13d8f6;
         color: #551b8b;
         text-transform: uppercase;
     }
 
+    /* de eerste sectie wordt hier aangegeven dit gaat over de ruitjes en over de inhoud*/
+
     .sectionwidth {
         background: url(ruitjessssss.png);
-        width: 90em;
-        height: 50em;
+        width: 100vw;
+        height: 50vw;
+        margin-top: -4vw;
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
-        opacity: 
     }
 
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 4em;
+        grid-gap: 1vw;
     }
 
-    h5 {
-        margin-top: 25%;
-        font-size: 50px;
+    .wrapper p:nth-of-type(1) {
+        margin: 0vw 0vw 0vw 40vw
     }
 
-
+    /*deze p bepaald veel over alle p'tjes rekening mee houden! ***************************/
     p {
-        padding: 3% 3% 3% 3%;
-        font-size: 50px;
+        padding: 0vw 0vw 0vw 10vw;
+        font-size: 3vw;
         text-transform: uppercase;
-        font-size: 2.1em;
         font-weight: 600;
-        letter-spacing: 0.05em
+        letter-spacing: 0.3vw;
+        position: relative;
     }
-
 
     .canvas1 {
-        width: 70em;
-        height: 0em;
+        width: 80vw;
         background-color: white;
-        left: -2px;
-        top: -2px;
-        border-top-right-radius: 100px;
-        margin-left: 5%;
+        margin: 0vw 0vw 0vw -57vw;
         display: block;
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    */ .canvas1 {
-        float: left;
-        width: 33.33%;
-        padding-left: 11.11%;
-
-
+        height: 35.5vw;
+        border-style: solid;
+        border-width: 1px;
     }
 
     .tftnotes {
-        width: 400px;
-        height: 400px;
+        width: 35vw;
+        height: 35vw;
         left: -2px;
         top: -2px;
         margin-top: 0%;
-        content: "";
-        display: table;
-        clear: both;
-
+        padding: 0vw 0vw 0vw 0vw;
+        margin: 0vw 0vw 0vw 0vw
     }
 
+    /*CHOOSE YOUR CHAMPION ************************************************************/
 
-
-    .canvas2 {
-        float: left;
-        width: 33.33%;
-        padding-left: 10%;
-
-    }
-
-    .canvas3 {
-        float: left;
-        width: 33.33%;
-        padding-left: 40%;
-
-    }
-
-
-
-
-    /*CHOOSE YOUR CHAMPION */
     .sectionwidth1 {
         background-color: white;
-        width: 90em;
+        width: 100vw;
     }
 
-    h2 {
-        margin: 0vw 0vw 8vw 0vw;
-        font-size: 50px;
+    .sectionwidth1 p {
+        margin: 0vw 10vw 0vw 0vw;
+        font-size: 0.7em;
+        font-weight: 50;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 0vw 0vw 0.2vw 0vw;
         text-transform: uppercase;
-        font-size: 75px;
+        font-size: 4vw;
         font-weight: 600;
         letter-spacing: 0.05em;
         width: 100%;
         text-align: center;
-      
+    }
+
+    h2 {
+        margin: 0vw 0vw 4vw 0vw;
+        text-transform: uppercase;
+        font-size: 10vw;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+
     }
 
     h3 {
-        margin: 2vw 10vw 5vw 10vw;
-        font-size: 50px;
-        font-weight: 200;
+        margin: 5vw 15vw 11vw 15vw;
+        font-size: 1.4vw;
+        font-weight: 50;
         letter-spacing: 0.05em;
         text-align: center;
     }
 
     .buttondiscover {
-        width: 20em;
-        height: 1.5em;
+        width: 70vw;
+        height: 2em;
         position: absolute;
         float: none;
-        margin: 0% 24.5% 0%;
-        font-size: 3em;
+        margin: 0% 15vw 0%;
+        font-size: 4vw;
         background-color: #d6a84e;
         color: white;
         text-transform: uppercase;
+        font-weight: 600;
     }
 
     .buttonplaynow {
-        width: 20em;
-        height: 1.5em;
+        width: 70vw;
+        height: 2em;
         position: absolute;
         float: none;
-        margin: 10% 24.5% 0%;
-        font-size: 3em;
+        margin: 10vw 15vw 0%;
+        font-size: 4vw;
         background-color: #00cae7;
         color: white;
         text-transform: uppercase;
+        font-weight: 600;
     }
 
     .yasuo {
-        width: 80em;
-        height: 80em;
+        width: 70vw;
+        height: 70vw;
+        margin: 10vw 10vw 10vw 10vw;
+        display: table;
+        clear: both;
+    }
+
+    /*Vanaf de zwarte sectie. Hier kan je alles bewerken voor de zwarte sectie*************/
+
+    .sectionwidth2 {
+        background-color: black;
+        width: 100vw;
+        height: 270vw;
+        margin: -4vw 0vw 0vw 0vw
+    }
+
+    .videoround {
+        width: 80vw;
+        border-radius: 50vw;
+        overflow: hidden;
+        margin: 0vw 10vw 10vw 10vw;
+    }
+
+    h4 {
+        position: relative;
+        color: white;
+        margin: 5vw 5vw 5vw 5vw;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    h5 {
+        position: relative;
+        color: white;
+        margin: 5vw 5vw 11vw 5vw;
+        font-size: 3vw;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .buttondiscover2 {
+        width: 40vw;
+        height: 15vw;
+        position: absolute;
+        float: none;
+        margin: 0% 30vw 0%;
+        font-size: 5vw;
+        background-color: #d6a84e;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.2vw;
+    }
+
+    .buttonplaynow2 {
+        width: 40vw;
+        height: 15vw;
+        position: absolute;
+        float: none;
+        margin: 20vw 30vw 0%;
+        font-size: 5vw;
+        background-color: #00cae7;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 550;
+        letter-spacing: 0.2vw;
+    }
+
+    .minimap {
+        margin: 40vw 0vw 0vw 0vw;
+        position: absolute;
+        width: 100vw;
+
+    }
+
+    /*FOOTER ******************************************************************************/
+
+    footer {
+        background-color: #101010;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .footer {
+        margin: -1vw 0vw 0vw 0vw;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .opmaakfooter {
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+        margin: 0vw 0vw 0vw 0vw;
+    }
+
+    .opmaaktekst {
+        margin: 0vw 9vw 3vw 0vw;
+        text-align: center;
+    }
+
+    footer a {
+        color: grey;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .logofooter {
+        width: 50vw;
+        margin: 0vw 23vw 0vw 27vw;
+    }
+
+
+    /*hier wordt er bepaald dit sommige displays op none staan */
+
+
+    .video2 {
+        display: none;
+    }
+
+
+    .video3 {
+        display: none;
+    }
+
+    .sectionwidth1 p:nth-of-type(2) {
+        display: none;
+    }
+
+    .sectionwidth1 p:nth-of-type(3) {
+        display: none;
+    }
+
+    .imgheader {
+        display: none;
+    }
+
+    .aram {
+        display: none;
+    }
+}
+
+/* media beeldscherm computer *************************************************************/
+
+@media only screen and (min-width: 600px) {
+
+    /*vanaf hier begint de header voor normale site.************************************/
+
+    nav {
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0vw 4vw 0vw 3vw;
+        height: 4em;
+        width: 100vw;
+        background-color: black;
+    }
+
+    .imgheader {
+        position: absolute;
+        width: 7em;
+        height: 4em;
+        margin: 0vw 0vw 0vw 4vw;
+
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        max-width: 90vw;
+    }
+
+    header nav li {
+        flex-grow: 1;
+        max-width: 6em;
+        margin: 0em 1em 0em 0em;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+
+    }
+
+    .opmaaknavmenu {
+        color: white;
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    header li:nth-of-type(5) {
+        background-color: #d6a84e;
+        width: 7em;
+        height: 2em;
+        padding: 0.4em 1em 0em 1em;
+    }
+
+    /* hier begint de inhoud van de website te beginnen bij de video bovenaan***********/
+
+
+    .video {
+        width: 100vw;
+        height: 37.5vw;
+        z-index: -5;
+        object-fit: cover;
+        position: relative
+    }
+
+    .videoontop {
+        width: 90.22vw;
+        height: 29.22vw;
+        object-fit: cover;
+        position: absolute;
+        margin: -30vw 5vw 0vw 5vw;
+        border-style: solid;
+        border-color: white;
+        border-width: 0.1em;
+
+    }
+
+    .video2 {
+        width: 00vw;
+        height: 29vw;
+        margin: 0vw 0vw 0vw 0vw;
+        object-fit: cover;
+        position: absolute;
+        z-index: -4;
+    }
+
+    .lollogo2 {
+        width: 30vw;
+        height: 15vw;
+        position: absolute;
+        float: none;
+        margin: 15vw 34.6vw 0vw 34.6vw;
+    }
+
+
+    .buttonstyling {
+        width: 10vw;
+        height: 3.5vw;
+        position: absolute;
+        float: none;
+        margin: 28vw 45vw 0vw 45vw;
+        font-size: 1vw;
+        background-color: #13d8f6;
+        color: #551b8b;
+        text-transform: uppercase;
+        border-style: none;
+    }
+
+
+
+    /* hier begint de 1ste sectie over de section width van de ruitjes en over de inhoud*/
+
+    .sectionwidth {
+        background: url(ruitjessssss.png);
+        width: 100vw;
+        height: 15.5vw;
+        margin-top: -4vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -5;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1vw;
+    }
+
+    .wrapper p:nth-of-type(1) {
+        padding: 0vw 0vw 0vw 20vw;
+        font-size: 0.6em
+    }
+
+    p {
+        padding: 3vw 0vw 0vw 10vw;
+        font-size: 0.7vw;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.1vw;
+    }
+
+    .canvas1 {
+        height: 9.14vw;
+        width: 35vw;
+        background-color: white;
+        margin: 0vw 0vw 0vw -24vw;
+        display: block;
+        border-style: solid;
+        border-width: 1px;
+        z-index: -3;
+    }
+
+    .tftnotes {
+        width: 9vw;
+        height: 9vw;
+        left: -2px;
         top: -2px;
-        margin: 10vw 5vw 10vw;
-        content: "";
+        margin-top: 0%;
+        padding: 0vw 0vw 0vw 0vw;
+    }
+
+    /*CHOOSE YOUR CHAMPION, is de 2de section en allen inhoud. */
+    .sectionwidth1 {
+        background-color: white;
+        width: 100vw;
+        z-index: -5;
+    }
+
+    h1 {
+        margin: 0vw 0vw 0.2vw 0vw;
+        text-transform: uppercase;
+        font-size: 1.7vw;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    h2 {
+        margin: 0vw 0vw 0vw 0vw;
+        text-transform: uppercase;
+        font-size: 5vw;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .sectionwidth1 p {
+        margin: 0vw 10vw 0vw 0vw;
+        font-size: 0.7em;
+        font-weight: 50;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+
+    .sectionwidth1 p:nth-of-type(2) {
+        margin: 0vw 13vw 0vw 40vw;
+        font-size: 0.7em;
+        font-weight: 50;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+
+    .sectionwidth1 p:nth-of-type(3) {
+        margin: -2vw 1vw 0vw -5vw;
+        font-size: 0.8em;
+        font-weight: 500;
+        letter-spacing: ;
+        position: absolute;
+    }
+
+    .buttondiscover {
+        width: 23vw;
+        height: 3vw;
+        position: absolute;
+        float: none;
+        margin: 1vw 1vw 1vw 25.5vw;
+        font-size: 1.2vw;
+        background-color: #d6a84e;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        position: relative;
+        border-style: none;
+    }
+
+    .buttonplaynow {
+        width: 23vw;
+        height: 3vw;
+        position: absolute;
+        float: none;
+        margin: 1vw 2.5vw 1vw 1vw;
+        font-size: 1.2vw;
+        background-color: #00cae7;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        position: relative;
+        border-style: none;
+    }
+
+    .yasuo {
+        width: 25vw;
+        height: 25vw;
+        margin: 0vw 10vw 0vw 8vw;
         display: table;
         clear: both;
 
     }
-     /*LoadOut*/
-    
+
+    .video3 {
+        position: absolute;
+        margin: -32vw 1vw 1vw 50vw;
+        width: 40vw;
+        height: 40vw;
+
+
+    }
+
+    /*LoadOut, is de 3de sectie, en begint bij de zwarte sectie.*/
+
     .sectionwidth2 {
         background-color: black;
-        width: 147vw;
-        height: 340vw;
-        
+        width: 100vw;
+        height: 95vw;
+        margin-bottom: 0vw;
     }
+
+    .videoround {
+        width: 20vw;
+        border-radius: 50vw;
+        border-color: #d6a84e;
+        border-width: 0.2vw;
+        border-style: solid;
+        overflow: hidden;
+        margin: 10vw 0vw 0vw 10vw;
+        z-index: 2;
+        position: absolute;
+    }
+
+    /* de tekst naast de ronde video */
+
+    .sectionwidth2 p:nth-of-type(1) {
+        z-index: 4;
+        color: white;
+        position: absolute;
+        margin: 11vw 3vw 3vw 19vw;
+        font-size: 0.8em;
+
+
+    }
+
+    .sectionwidth2 p:nth-of-type(2) {
+        z-index: 4;
+        color: white;
+        position: absolute;
+        margin: 13vw 3vw 3vw 20vw;
+        font-size: 0.8em;
+
+
+    }
+
+    .sectionwidth2 p:nth-of-type(3) {
+        z-index: 4;
+        color: white;
+        position: absolute;
+        margin: 15vw 3vw 3vw 21vw;
+        font-size: 0.8em;
+
+
+    }
+
+    h4 {
+        position: relative;
+        color: white;
+        margin: 0vw 5vw 0vw 70vw;
+        font-size: 2.5vw;
+        text-align: center;
+
+    }
+
+    h5 {
+        position: relative;
+        color: white;
+        margin: 0vw 5vw 11vw 70vw;
+        font-size: 1.4vw;
+        text-align: center;
+        font-weight: 200;
+        z-index: 3;
+
+    }
+
+    .buttondiscover2 {
+        width: 10em;
+        height: 2em;
+        position: absolute;
+        float: none;
+        margin: -10vw 30vw 0vw 70vw;
+        font-size: 1.2vw;
+        background-color: #d6a84e;
+        color: white;
+        text-transform: uppercase;
+        z-index: 4;
+        border-style: none;
+    }
+
+    .buttonplaynow2 {
+        width: 10em;
+        height: 2em;
+        position: absolute;
+        float: none;
+        margin: -10vw 30vw 0vw 85vw;
+        font-size: 1.2vw;
+        background-color: #00cae7;
+        color: white;
+        text-transform: uppercase;
+        z-index: 4;
+        border-style: none;
+    }
+
     .minimap {
-        padding: 50vw 0vw 10vw 0vw
+        margin: -20vw 0vw 0vw 0vw;
+        position: absolute;
+        width: 80vw;
+        z-index: 3
     }
-    
+
+    /* background zwarte sectie*/
+
+    .aram {
+        width: 100vw;
+        height: 40vw;
+        margin: 0vw 0vw 0vw 0vw;
+        position: relative;
+        z-index: 1;
+        opacity: 8%;
+    }
+
+
+    /*FOOTER */
+    footer {
+        background-color: #101010;
+        width: 100vw;
+    }
+
+
+    .footer {
+        margin: -3vw 70vw 0vw 0vw;
+        width: 50vw;
+        text-align: center;
+    }
+
+    .opmaakfooter {
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+        padding: 3vw 0vw 0vw 0vw;
+
+
+    }
+
+    .opmaaktekst {
+        margin: 0vw 0vw 3vw 0vw;
+
+    }
+
+    footer a {
+        color: grey;
+        text-decoration: none;
+        font-size: 1vw;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .logofooter {
+        width: 25vw;
+        margin: -20vw 23vw 6vw 50vw;
+        height: 15vw;
+
+    }
+
+
+    /* hier staan de displays die op none staan ******************************************/
+
+
+
+    .fist {
+        display: none;
+    }
+
+    .lollogo {
+        display: none;
+    }
+
+    .worldicon {
+        display: none;
+    }
+
+    .hamburgericon {
+        display: none;
+    }
+
 }

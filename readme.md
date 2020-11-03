@@ -6,66 +6,65 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. -schoolopdrachten Sanne-
+2. -league of legendssite-
+3. -Andere bronnen die zijn gebruikt staat de link in de code.-
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+-ik vond de header erg lastig om correct te krijgen, ook vond ik nth of type nog steeds lastig om te gebruiken en om de code kort op te schrijven.-
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+-staat in de screenshot folder.-
 
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-hier kon ik niet bij zijn ivm met andere opdrachten voor school-
 
 
 
 ## Voortgang 2 (week 5)
+-ik had niet veel erbij gemaakt, ik moest in fotoshop een bepaald bestand verder uitwerken voor de achtergrond en ik had een widthsection gemaakt om in verder te werken.-
 
--same as voortgang 1-
+**Screenshot(s):**
 
+-screensshot map-
 
 
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-ik had nog niet super veel gedaan, ik had een header en een video.-
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+-screensshot map-
 
-### Agenda voor meeting
-
--samen met je groepje opstellen-
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-De start ging redelijk stroef, ik kreeg meteen de feedback dat opzoek moest gaan naar een andere website om te gaan namaken.-
 
 
 
 ## Intake (week 1)
 
 **Je startniveau:** -kies uit zwart, rood óf blauw-
- **Ik zit op de rode piste, ik doe het niet vaak omdat ik het niet goed genoeg dan snap om echt losse tekste te schrijven. 
-**Je focus:** -ik ga de website aanpassen dat het lekkerder wordt om mee om te gaan en om naar te kijken. Hierbij raad ik een darkmodus aan maar ook een algehele opfrissing in de layout. Wat naar mijn mening statisch overkomt.-
+ **Ik zit op de blauwe piste, ik doe het niet vaak omdat ik het niet goed genoeg dan snap om echt losse tekste te schrijven. 
+**Je focus:** -Ik ben bezig met het namaken van een best wel ingewikkelde site, om er een challenge uit te halen.-
 
-**Je opdracht:** -https://dutchcollegeleague.nl/-
+**Je opdracht:** -https://euw.leagueoflegends.com/en-gb/-
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![staat folder sreenshots]
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![-staat folder breakdown-]

@@ -1,0 +1,582 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(214, 214, 214);
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+/*media mobiel*/
+
+@media only screen and (max-width: 600px) {
+
+    /*vanaf hier begint de header voor mobiele site.************************************/
+
+    header {
+        height: 20vw;
+        width: 100vw;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5vw;
+        position: fixed;
+        z-index: 10;
+
+    }
+
+    .fist {
+        width: auto;
+        height: 10vw;
+    }
+
+    .lollogo {
+        width: auto;
+        height: 15vw;
+    }
+
+    .worldicon {
+        width: auto;
+        float: right;
+        max-height: 10vw;
+    }
+
+    .hamburgericon {
+        width: auto;
+        height: 10vw;
+        float: right;
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .opmaaknavmenu {
+        position: absolute;
+        right: 0px;
+        height: 55vw;
+        background-color: white;
+        margin: 10vw 0vw 1vw 1vw;
+        padding: 0vw 8vw 0vw 10vw;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        text-decoration: none;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+
+
+    }
+
+    .opmaaknavmenu a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    nav ul li {
+        margin: 0vw 0vw 4vw 0vw;
+    }
+}
+
+.opmaaknavmenu li {
+    opacity: 100;
+}
+
+.nav-active {
+    transform: translateX(0%)
+}
+
+
+/*vanaf hier begint de main voor mobiele site.************************************/
+
+@media only screen and (max-width: 600px) {
+    .video {
+        width: 100vw;
+        height: 160vw;
+        z-index: -5;
+        object-fit: cover;
+    }
+
+    .summonersrift {
+        height: 120vw;
+        width: 100vw;
+    }
+
+    .lollogo2 {
+        width: 70vw;
+        height: 40vw;
+        position: absolute;
+        float: none;
+        margin: 35vw 15vw 0vw 15vw;
+    }
+
+    /* de eerste sectie wordt hier aangegeven dit gaat over de afbeelding takeover en over de inhoud*/
+
+    .sectionwidth {
+        background: url(worlds2019.jpg);
+        width: 100vw;
+        height: 50vw;
+        margin-top: -5vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    h1 {
+        margin: -50vw 0vw 0.2vw 0vw;
+        text-transform: uppercase;
+        font-size: 4vw;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        z-index: 5;
+        color: white;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1vw;
+    }
+
+    p {
+        padding: 4vw 0vw 0vw 10vw;
+        font-size: 3vw;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.3vw;
+        color: white;
+        margin: 0vw 0vw 0vw 14vw;
+    }
+
+    /* de tweede sectie wordt hier aangegeven dit gaat over de zwarte acthergrond en over de tekst*/
+    .sectionwidth1 {
+        background-color: black;
+        width: 100vw;
+    }
+
+    .sectionwidth1 p {
+        margin: 0vw 10vw 0vw 0vw;
+        font-size: 0.7em;
+        font-weight: 50;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+
+    h2 {
+        margin: 0vw 0vw 0vw 0vw;
+        text-transform: uppercase;
+        font-size: 6vw;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+        color: white;
+
+    }
+
+    .bluesidemap {
+        width: 70vw;
+        height: 70vw;
+        margin: 10vw 15vw 10vw 15vw;
+        display: table;
+        clear: both;
+
+    }
+
+    /*Start your Journey! Sectie 3 foto's en inhoud*/
+
+    .sectionwidth2 {
+        background-color: black;
+        width: 100vw;
+        height: 200vw;
+        margin: -4vw 0vw 0vw 0vw;
+        z-index: -4;
+    }
+
+    h4 {
+        position: relative;
+        color: white;
+        margin: 0vw 5vw 5vw 5vw;
+        font-size: 5vw;
+        text-align: center;
+
+    }
+
+    h5 {
+        position: relative;
+        color: white;
+        margin: 5vw 5vw 11vw 5vw;
+        font-size: 3vw;
+        text-align: center;
+        font-weight: 200;
+
+    }
+
+    .minimap {
+        margin: 0vw 0vw 0vw 0vw;
+        position: absolute;
+        width: 100vw;
+
+    }
+
+    .jungle {
+        width: 100vw;
+        position: absolute;
+        margin: 80vw 0vw 0vw 0vw;
+    }
+
+    h6 {
+        margin: 80vw 0vw 0vw 0vw;
+        color: white;
+        font-size: 3vw;
+        text-align: center;
+        font-weight: 200;
+        z-index: 4;
+    }
+
+
+    /*FOOTER */
+    footer {
+        background-color: #101010;
+        width: 100vw;
+        text-align: center;
+    }
+
+
+    .footer {
+        margin: -1vw 0vw 0vw 0vw;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .opmaakfooter {
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+        margin: 0vw 0vw 0vw 0vw;
+
+
+    }
+
+    .opmaaktekst {
+        margin: 0vw 9vw 3vw 0vw;
+        text-align: center;
+
+    }
+
+    footer a {
+        color: grey;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .logofooter {
+        width: 50vw;
+        margin: 0vw 23vw 0vw 27vw;
+    }
+
+    .sectionwidth1 p:nth-of-type(1) {
+        color: white;
+        margin: 2vw 7vw 2vw 0vw;
+    }
+
+
+    /*de displays die op none staan */
+    .imgheader {
+        display: none;
+    }
+}
+
+/*Voor het normale beeldscherm*/
+
+@media only screen and (min-width: 600px) {
+
+    /*vanaf hier begint de header voor normale site.************************************/
+
+    nav {
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0vw 4vw 0vw 3vw;
+        height: 4em;
+        width: 100vw;
+        background-color: black;
+    }
+
+    .imgheader {
+        position: absolute;
+        width: 7em;
+        height: 4em;
+        margin: 0vw 0vw 0vw 4vw;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        max-width: 90vw;
+    }
+
+    header nav li {
+        flex-grow: 1;
+        max-width: 6em;
+        margin: 0em 1em 0em 0em;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+
+    }
+
+    .opmaaknavmenu {
+        color: white;
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    header li:nth-of-type(5) {
+        background-color: #d6a84e;
+        width: 7em;
+        height: 2em;
+        padding: 0.4em 1em 0em 1em;
+    }
+
+    /* background voorkant en groot logo */
+    .summonersrift {
+        height: 40vw;
+        width: 100vw;
+    }
+
+    .lollogo2 {
+        width: 30vw;
+        height: 15vw;
+        position: absolute;
+        float: none;
+        margin: 15vw 34.6vw 0vw 34.6vw;
+    }
+
+    /* hier begint de 1ste sectie over de section width van de ruitjes en over de inhoud*/
+    .sectionwidth {
+        background: url(worlds2019.jpg);
+        width: 100vw;
+        height: 20.5vw;
+        margin-top: 7.4vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: -5;
+        background-size: 100vw 21vw
+    }
+
+    .sectionwidth p:nth-of-type(1) {
+        color: white;
+        margin: 2vw 17vw 2vw 17vw;
+        font-size: 1.5em
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1vw;
+    }
+
+    p {
+        padding: 3vw 0vw 0vw 10vw;
+        font-size: 0.7vw;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.1vw;
+    }
+
+
+    /* hier begint de 2de sectie over de zwarte achterkant en afbeeldingen en bovenste tekst*/
+
+    .sectionwidth1 {
+        background-color: black;
+        width: 100vw;
+        z-index: -5;
+    }
+
+    h1 {
+        margin: -10vw 0vw 0.2vw 0vw;
+        text-transform: uppercase;
+        font-size: 1.7vw;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+        color: white;
+
+    }
+
+    h2 {
+        margin: 0vw 0vw 0vw 0vw;
+        text-transform: uppercase;
+        font-size: 3em;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        width: 100%;
+        text-align: center;
+        color: white;
+
+    }
+
+    .sectionwidth1 p:nth-of-type(1) {
+        color: white;
+        margin: 0vw 7vw 2vw 0vw;
+        font-size: 1em
+    }
+
+    .sectionwidth1 p {
+        margin: 0vw 10vw 0vw 0vw;
+        font-size: 0.7em;
+        font-weight: 50;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+
+    .bluesidemap {
+        width: 100vw;
+        height: 60vw;
+    }
+
+    .minimap {
+        width: 80vw;
+        height: 60vw;
+        margin: 0vw 10vw 0vw 10vw;
+        position: relative;
+    }
+
+    .jungle {
+        width: 80vw;
+        height: 60vw;
+        margin: 10vw 10vw 0vw 10vw;
+    }
+
+    /* hier begint de 3de sectie over de zwarte achterkant en afbeeldingen en bovenste tekst*/
+
+    .sectionwidth2 {
+        background-color: black;
+        width: 100vw;
+        height: 155vw;
+        margin-bottom: 0vw;
+    }
+
+    h4 {
+        position: relative;
+        color: white;
+        margin: 0vw 5vw 2vw 0vw;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    h5 {
+        position: relative;
+        color: white;
+        margin: 0vw 5vw 5vw 0vw;
+        font-size: 1.4vw;
+        text-align: center;
+        font-weight: 200;
+        z-index: 3;
+    }
+
+    h6 {
+        position: relative;
+        color: white;
+        margin: -66vw 0vw 0vw 25vw;
+        font-size: 1.5em;
+    }
+
+    /*FOOTER */
+    footer {
+        background-color: #101010;
+        width: 100vw;
+        height: 37vw;
+    }
+
+    .footer {
+        margin: -3vw 70vw 0vw 0vw;
+        width: 50vw;
+        text-align: center;
+    }
+
+    .opmaakfooter {
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+        padding: 3vw 0vw 0vw 0vw;
+    }
+
+    .opmaaktekst {
+        margin: 0vw 0vw 3vw 0vw;
+
+    }
+
+    footer a {
+        color: grey;
+        text-decoration: none;
+        font-size: 01em;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .logofooter {
+        width: 25vw;
+        margin: -20vw 23vw 0vw 50vw;
+        height: 15vw;
+        float: right;
+    }
+
+    /* display none */
+
+    .fist {
+        display: none;
+    }
+
+    .lollogo {
+        display: none;
+    }
+
+    .worldicon {
+        display: none;
+    }
+
+    .hamburgericon {
+        display: none;
+
+    }
+
+}
