@@ -496,7 +496,7 @@ body {
     }
 
     .video2 {
-        width: 00vw;
+        width: 100vw;
         height: 29vw;
         margin: 0vw 0vw 0vw 0vw;
         object-fit: cover;
