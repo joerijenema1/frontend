@@ -9,7 +9,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. -schoolopdrachten Sanne-
 2. -league of legendssite-
 3. -Andere bronnen die zijn gebruikt staat de link in de code.-
-
+4. -bronnen van google zijn aangepast via fotoshop en zijn soms niet meer terug te vinden-
+5. -https://www.youtube.com/watch?v=gXkqy0b4M5g&t=463s nav bar uitleg- 
 
 
 ## Eindgesprek (week 7/8)
